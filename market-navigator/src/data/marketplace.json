@@ -1,0 +1,68 @@
+
+{
+    "buildings": [
+      {
+        "id": 1,
+        "name": "Building A",
+        "floors": [
+          {
+            "id": 1,
+            "name": "Floor 1",
+            "rooms": [
+              {
+                "id": 1,
+                "name": "Room 101",
+                "products": [
+                  { "id": 1, "name": "Laptop", "price": 999, "description": "High-end laptop", "available": true },
+                  { "id": 2, "name": "Smartphone", "price": 699, "description": "Latest smartphone", "available": false }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "Room 102",
+                "products": [
+                  { "id": 3, "name": "TV", "price": 599, "description": "4K Ultra HD TV", "available": true },
+                  { "id": 4, "name": "Headphones", "price": 120, "description": "Noise-cancelling headphones", "available": true }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Floor 2",
+            "rooms": [
+              {
+                "id": 3,
+                "name": "Room 201",
+                "products": [
+                  { "id": 5, "name": "Refrigerator", "price": 899, "description": "Double-door fridge", "available": true },
+                  { "id": 6, "name": "Blender", "price": 150, "description": "High-speed blender", "available": false }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Building B",
+        "floors": [
+          {
+            "id": 3,
+            "name": "Floor 1",
+            "rooms": [
+              {
+                "id": 4,
+                "name": "Room 301",
+                "products": [
+                  { "id": 7, "name": "T-shirt", "price": 25, "description": "Comfortable cotton t-shirt", "available": true },
+                  { "id": 8, "name": "Jeans", "price": 40, "description": "Stylish denim jeans", "available": true }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
