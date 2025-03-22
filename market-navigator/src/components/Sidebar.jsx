@@ -9,7 +9,6 @@ const Sidebar = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Fetch buildings from the mock server
     const fetchBuildingsData = async () => {
       try {
         const response = await fetch('http://localhost:5000/buildings');
@@ -28,22 +27,42 @@ const Sidebar = () => {
     fetchBuildingsData();
   }, [dispatch]);
 
+  // Log the selected building, floor, and room for debugging
+  console.log('Selected Building:', selectedBuilding);
+  console.log('Selected Floor:', selectedFloor);
+  console.log('Selected Room:', selectedRoom);
+
+  // Handle building change
   const handleBuildingChange = (buildingId) => {
-    const building = buildings.find(b => b.id === buildingId);
-    dispatch(selectBuilding(building));
-    dispatch(selectFloor(null));  // Reset floor and room selections
-    dispatch(selectRoom(null));
+    console.log('Building selected:', buildingId);
+    const building = buildings.find(b => b.id === parseInt(buildingId)); // Convert to int
+    if (building) {
+      dispatch(selectBuilding(building));
+      dispatch(selectFloor(null));  // Reset floor selection
+      dispatch(selectRoom(null));   // Reset room selection
+    }
   };
 
+  // Handle floor change
   const handleFloorChange = (floorId) => {
-    const floor = selectedBuilding.floors.find(f => f.id === floorId);
-    dispatch(selectFloor(floor));
-    dispatch(selectRoom(null));  // Reset room selection
+    console.log('Floor selected:', floorId);
+    const floor = selectedBuilding.floors.find(f => f.id === parseInt(floorId)); // Convert to int
+    if (floor) {
+      dispatch(selectFloor(floor));
+      dispatch(selectRoom(null));   // Reset room selection
+    }
+    console.log('Selected Floor:', selectedFloor);  // Debug selectedFloor value
   };
 
+  // Handle room change
   const handleRoomChange = (roomId) => {
-    const room = selectedFloor.rooms.find(r => r.id === roomId);
-    dispatch(selectRoom(room));
+    if (selectedFloor) {
+      console.log('Room selected:', roomId);
+      const room = selectedFloor.rooms.find(r => r.id === parseInt(roomId)); // Convert to int
+      if (room) {
+        dispatch(selectRoom(room));  // Set selected room
+      }
+    }
   };
 
   if (loading) {
@@ -55,14 +74,14 @@ const Sidebar = () => {
   }
 
   return (
-    <div className="w-64 bg-gray-800 text-white p-4">
+    <div className="w-72 bg-gray-800 text-white p-6 space-y-6">
       <h2 className="text-lg font-semibold mb-4">Select Building, Floor, and Room</h2>
-      
+
       {/* Building Dropdown */}
-      <div className="mb-4">
+      <div className="mb-1">
         <label className="block">Building</label>
         <select
-          className="w-full p-2 bg-gray-700"
+          className="w-full p-2 bg-gray-700 rounded-lg"
           value={selectedBuilding ? selectedBuilding.id : ''}
           onChange={(e) => handleBuildingChange(e.target.value)}
         >
@@ -78,7 +97,7 @@ const Sidebar = () => {
         <div className="mb-4">
           <label className="block">Floor</label>
           <select
-            className="w-full p-2 bg-gray-700"
+            className="w-full p-2 bg-gray-700 rounded-lg"
             value={selectedFloor ? selectedFloor.id : ''}
             onChange={(e) => handleFloorChange(e.target.value)}
           >
@@ -91,11 +110,11 @@ const Sidebar = () => {
       )}
 
       {/* Room Dropdown */}
-      {selectedFloor && (
+      {selectedFloor && selectedFloor.rooms && selectedFloor.rooms.length > 0 && (
         <div className="mb-4">
           <label className="block">Room</label>
           <select
-            className="w-full p-2 bg-gray-700"
+            className="w-full p-2 bg-gray-700 rounded-lg"
             value={selectedRoom ? selectedRoom.id : ''}
             onChange={(e) => handleRoomChange(e.target.value)}
           >
@@ -105,6 +124,11 @@ const Sidebar = () => {
             ))}
           </select>
         </div>
+      )}
+
+      {/* Fallback message when no rooms are available */}
+      {selectedFloor && selectedFloor.rooms && selectedFloor.rooms.length === 0 && (
+        <div>No rooms available for the selected floor.</div>
       )}
     </div>
   );

@@ -1,4 +1,3 @@
-
 {
     "buildings": [
       {
@@ -14,15 +13,63 @@
                 "name": "Room 101",
                 "products": [
                   { "id": 1, "name": "Laptop", "price": 999, "description": "High-end laptop", "available": true },
-                  { "id": 2, "name": "Smartphone", "price": 699, "description": "Latest smartphone", "available": false }
+                  { "id": 2, "name": "Smartphone", "price": 699, "description": "Latest smartphone", "available": false },
+                  { "id": 3, "name": "TV", "price": 599, "description": "4K Ultra HD TV", "available": true },
+                  { "id": 4, "name": "Headphones", "price": 120, "description": "Noise-cancelling headphones", "available": true },
+                  { "id": 5, "name": "Refrigerator", "price": 899, "description": "Double-door fridge", "available": true },
+                  { "id": 6, "name": "Blender", "price": 150, "description": "High-speed blender", "available": false },
+                  { "id": 7, "name": "Washing Machine", "price": 350, "description": "Top load washer", "available": true },
+                  { "id": 8, "name": "Microwave", "price": 200, "description": "Microwave oven", "available": true },
+                  { "id": 9, "name": "Toaster", "price": 30, "description": "2-slice toaster", "available": true },
+                  { "id": 10, "name": "Air Conditioner", "price": 1200, "description": "Split AC", "available": true }
                 ]
               },
               {
                 "id": 2,
                 "name": "Room 102",
                 "products": [
-                  { "id": 3, "name": "TV", "price": 599, "description": "4K Ultra HD TV", "available": true },
-                  { "id": 4, "name": "Headphones", "price": 120, "description": "Noise-cancelling headphones", "available": true }
+                  { "id": 11, "name": "Dishwasher", "price": 450, "description": "Dishwasher", "available": true },
+                  { "id": 12, "name": "Oven", "price": 500, "description": "Convection oven", "available": true },
+                  { "id": 13, "name": "Fridge", "price": 1200, "description": "French door refrigerator", "available": false },
+                  { "id": 14, "name": "Cooktop", "price": 350, "description": "Induction cooktop", "available": true },
+                  { "id": 15, "name": "Kettle", "price": 50, "description": "Electric kettle", "available": true },
+                  { "id": 16, "name": "Coffee Maker", "price": 100, "description": "Espresso machine", "available": true },
+                  { "id": 17, "name": "Vacuum Cleaner", "price": 120, "description": "Cordless vacuum", "available": false },
+                  { "id": 18, "name": "Iron", "price": 25, "description": "Steam iron", "available": true },
+                  { "id": 19, "name": "Fan", "price": 40, "description": "Ceiling fan", "available": true },
+                  { "id": 20, "name": "Heater", "price": 75, "description": "Electric heater", "available": true }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "Room 103",
+                "products": [
+                  { "id": 21, "name": "Blender", "price": 150, "description": "High-speed blender", "available": false },
+                  { "id": 22, "name": "Juicer", "price": 70, "description": "Electric juicer", "available": true },
+                  { "id": 23, "name": "Grill", "price": 100, "description": "Portable grill", "available": true },
+                  { "id": 24, "name": "Blender", "price": 120, "description": "Mixer grinder", "available": true },
+                  { "id": 25, "name": "Induction Heater", "price": 90, "description": "Portable induction heater", "available": true },
+                  { "id": 26, "name": "Washing Machine", "price": 400, "description": "Front load washer", "available": true },
+                  { "id": 27, "name": "Shaver", "price": 30, "description": "Electric shaver", "available": true },
+                  { "id": 28, "name": "Refrigerator", "price": 800, "description": "Compact fridge", "available": true },
+                  { "id": 29, "name": "Heater", "price": 80, "description": "Electric fan heater", "available": true },
+                  { "id": 30, "name": "AC Unit", "price": 1200, "description": "Air conditioning unit", "available": false }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "Room 104",
+                "products": [
+                  { "id": 31, "name": "Dishwasher", "price": 500, "description": "Dishwasher", "available": true },
+                  { "id": 32, "name": "Microwave", "price": 120, "description": "Microwave oven", "available": true },
+                  { "id": 33, "name": "Washing Machine", "price": 450, "description": "Washer", "available": true },
+                  { "id": 34, "name": "Toaster", "price": 30, "description": "Toaster", "available": true },
+                  { "id": 35, "name": "Air Purifier", "price": 150, "description": "HEPA air purifier", "available": true },
+                  { "id": 36, "name": "Fan", "price": 45, "description": "Tower fan", "available": true },
+                  { "id": 37, "name": "Iron", "price": 25, "description": "Iron", "available": true },
+                  { "id": 38, "name": "Microwave", "price": 150, "description": "Microwave oven", "available": true },
+                  { "id": 39, "name": "Toaster", "price": 50, "description": "Toaster", "available": true },
+                  { "id": 40, "name": "Oven", "price": 250, "description": "Oven", "available": false }
                 ]
               }
             ]
@@ -32,11 +79,137 @@
             "name": "Floor 2",
             "rooms": [
               {
+                "id": 1,
+                "name": "Room 101",
+                "products": [
+                  { "id": 1, "name": "Laptop", "price": 999, "description": "High-end laptop", "available": true },
+                  { "id": 2, "name": "Smartphone", "price": 699, "description": "Latest smartphone", "available": false },
+                  { "id": 3, "name": "TV", "price": 599, "description": "4K Ultra HD TV", "available": true },
+                  { "id": 4, "name": "Headphones", "price": 120, "description": "Noise-cancelling headphones", "available": true },
+                  { "id": 5, "name": "Refrigerator", "price": 899, "description": "Double-door fridge", "available": true },
+                  { "id": 6, "name": "Blender", "price": 150, "description": "High-speed blender", "available": false },
+                  { "id": 7, "name": "Washing Machine", "price": 350, "description": "Top load washer", "available": true },
+                  { "id": 8, "name": "Microwave", "price": 200, "description": "Microwave oven", "available": true },
+                  { "id": 9, "name": "Toaster", "price": 30, "description": "2-slice toaster", "available": true },
+                  { "id": 10, "name": "Air Conditioner", "price": 1200, "description": "Split AC", "available": true }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "Room 102",
+                "products": [
+                  { "id": 11, "name": "Dishwasher", "price": 450, "description": "Dishwasher", "available": true },
+                  { "id": 12, "name": "Oven", "price": 500, "description": "Convection oven", "available": true },
+                  { "id": 13, "name": "Fridge", "price": 1200, "description": "French door refrigerator", "available": false },
+                  { "id": 14, "name": "Cooktop", "price": 350, "description": "Induction cooktop", "available": true },
+                  { "id": 15, "name": "Kettle", "price": 50, "description": "Electric kettle", "available": true },
+                  { "id": 16, "name": "Coffee Maker", "price": 100, "description": "Espresso machine", "available": true },
+                  { "id": 17, "name": "Vacuum Cleaner", "price": 120, "description": "Cordless vacuum", "available": false },
+                  { "id": 18, "name": "Iron", "price": 25, "description": "Steam iron", "available": true },
+                  { "id": 19, "name": "Fan", "price": 40, "description": "Ceiling fan", "available": true },
+                  { "id": 20, "name": "Heater", "price": 75, "description": "Electric heater", "available": true }
+                ]
+              },
+              {
                 "id": 3,
+                "name": "Room 103",
+                "products": [
+                  { "id": 21, "name": "Blender", "price": 150, "description": "High-speed blender", "available": false },
+                  { "id": 22, "name": "Juicer", "price": 70, "description": "Electric juicer", "available": true },
+                  { "id": 23, "name": "Grill", "price": 100, "description": "Portable grill", "available": true },
+                  { "id": 24, "name": "Blender", "price": 120, "description": "Mixer grinder", "available": true },
+                  { "id": 25, "name": "Induction Heater", "price": 90, "description": "Portable induction heater", "available": true },
+                  { "id": 26, "name": "Washing Machine", "price": 400, "description": "Front load washer", "available": true },
+                  { "id": 27, "name": "Shaver", "price": 30, "description": "Electric shaver", "available": true },
+                  { "id": 28, "name": "Refrigerator", "price": 800, "description": "Compact fridge", "available": true },
+                  { "id": 29, "name": "Heater", "price": 80, "description": "Electric fan heater", "available": true },
+                  { "id": 30, "name": "AC Unit", "price": 1200, "description": "Air conditioning unit", "available": false }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "Room 104",
+                "products": [
+                  { "id": 31, "name": "Dishwasher", "price": 500, "description": "Dishwasher", "available": true },
+                  { "id": 32, "name": "Microwave", "price": 120, "description": "Microwave oven", "available": true },
+                  { "id": 33, "name": "Washing Machine", "price": 450, "description": "Washer", "available": true },
+                  { "id": 34, "name": "Toaster", "price": 30, "description": "Toaster", "available": true },
+                  { "id": 35, "name": "Air Purifier", "price": 150, "description": "HEPA air purifier", "available": true },
+                  { "id": 36, "name": "Fan", "price": 45, "description": "Tower fan", "available": true },
+                  { "id": 37, "name": "Iron", "price": 25, "description": "Iron", "available": true },
+                  { "id": 38, "name": "Microwave", "price": 150, "description": "Microwave oven", "available": true },
+                  { "id": 39, "name": "Toaster", "price": 50, "description": "Toaster", "available": true },
+                  { "id": 40, "name": "Oven", "price": 250, "description": "Oven", "available": false }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Floor 3",
+            "rooms": [
+              {
+                "id": 5,
                 "name": "Room 201",
                 "products": [
-                  { "id": 5, "name": "Refrigerator", "price": 899, "description": "Double-door fridge", "available": true },
-                  { "id": 6, "name": "Blender", "price": 150, "description": "High-speed blender", "available": false }
+                  { "id": 41, "name": "Dishwasher", "price": 500, "description": "Dishwasher", "available": true },
+                  { "id": 42, "name": "Refrigerator", "price": 800, "description": "Compact fridge", "available": true },
+                  { "id": 43, "name": "Washing Machine", "price": 450, "description": "Washer", "available": true },
+                  { "id": 44, "name": "Toaster", "price": 35, "description": "Toaster", "available": true },
+                  { "id": 45, "name": "Iron", "price": 25, "description": "Steam iron", "available": true },
+                  { "id": 46, "name": "Blender", "price": 120, "description": "Blender", "available": true },
+                  { "id": 47, "name": "Fan", "price": 40, "description": "Ceiling fan", "available": true },
+                  { "id": 48, "name": "Microwave", "price": 150, "description": "Microwave", "available": true },
+                  { "id": 49, "name": "Heater", "price": 75, "description": "Space heater", "available": true },
+                  { "id": 50, "name": "Coffee Maker", "price": 120, "description": "Coffee machine", "available": true }
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Room 202",
+                "products": [
+                  { "id": 51, "name": "Dishwasher", "price": 450, "description": "Dishwasher", "available": true },
+                  { "id": 52, "name": "Washing Machine", "price": 350, "description": "Washer", "available": false },
+                  { "id": 53, "name": "Oven", "price": 500, "description": "Convection oven", "available": true },
+                  { "id": 54, "name": "Fan", "price": 30, "description": "Fan", "available": true },
+                  { "id": 55, "name": "Coffee Maker", "price": 80, "description": "Coffee machine", "available": true },
+                  { "id": 56, "name": "Blender", "price": 130, "description": "High-speed blender", "available": true },
+                  { "id": 57, "name": "Iron", "price": 30, "description": "Steam iron", "available": true },
+                  { "id": 58, "name": "Refrigerator", "price": 950, "description": "Fridge", "available": true },
+                  { "id": 59, "name": "Juicer", "price": 100, "description": "Electric juicer", "available": true },
+                  { "id": 60, "name": "Microwave", "price": 120, "description": "Microwave", "available": true }
+                ]
+              },
+              {
+                "id": 7,
+                "name": "Room 203",
+                "products": [
+                  { "id": 61, "name": "Dishwasher", "price": 350, "description": "Dishwasher", "available": true },
+                  { "id": 62, "name": "Oven", "price": 450, "description": "Convection oven", "available": true },
+                  { "id": 63, "name": "Grill", "price": 100, "description": "Portable grill", "available": true },
+                  { "id": 64, "name": "Refrigerator", "price": 600, "description": "Mini fridge", "available": true },
+                  { "id": 65, "name": "Juicer", "price": 120, "description": "Juicer", "available": true },
+                  { "id": 66, "name": "Blender", "price": 180, "description": "High-power blender", "available": true },
+                  { "id": 67, "name": "Coffee Maker", "price": 90, "description": "Coffee machine", "available": true },
+                  { "id": 68, "name": "Washing Machine", "price": 400, "description": "Front load washer", "available": true },
+                  { "id": 69, "name": "Iron", "price": 30, "description": "Iron", "available": true },
+                  { "id": 70, "name": "Fan", "price": 50, "description": "Fan", "available": true }
+                ]
+              },
+              {
+                "id": 8,
+                "name": "Room 204",
+                "products": [
+                  { "id": 71, "name": "Blender", "price": 150, "description": "Blender", "available": true },
+                  { "id": 72, "name": "Refrigerator", "price": 700, "description": "Refrigerator", "available": true },
+                  { "id": 73, "name": "Oven", "price": 350, "description": "Microwave oven", "available": true },
+                  { "id": 74, "name": "Coffee Maker", "price": 50, "description": "Coffee maker", "available": true },
+                  { "id": 75, "name": "Toaster", "price": 25, "description": "Toaster", "available": true },
+                  { "id": 76, "name": "Iron", "price": 35, "description": "Steam iron", "available": true },
+                  { "id": 77, "name": "Dishwasher", "price": 600, "description": "Dishwasher", "available": true },
+                  { "id": 78, "name": "Juicer", "price": 80, "description": "Electric juicer", "available": true },
+                  { "id": 79, "name": "Washing Machine", "price": 450, "description": "Top load washing machine", "available": true },
+                  { "id": 80, "name": "Grill", "price": 120, "description": "Portable grill", "available": true }
                 ]
               }
             ]
@@ -48,15 +221,191 @@
         "name": "Building B",
         "floors": [
           {
-            "id": 3,
+            "id": 1,
             "name": "Floor 1",
             "rooms": [
               {
-                "id": 4,
-                "name": "Room 301",
+                "id": 1,
+                "name": "Room 101",
                 "products": [
-                  { "id": 7, "name": "T-shirt", "price": 25, "description": "Comfortable cotton t-shirt", "available": true },
-                  { "id": 8, "name": "Jeans", "price": 40, "description": "Stylish denim jeans", "available": true }
+                  { "id": 1, "name": "Laptop", "price": 899, "description": "Basic laptop", "available": true },
+                  { "id": 2, "name": "Smartphone", "price": 649, "description": "Smartphone", "available": true },
+                  { "id": 3, "name": "TV", "price": 499, "description": "LED TV", "available": true },
+                  { "id": 4, "name": "Refrigerator", "price": 850, "description": "Refrigerator", "available": true },
+                  { "id": 5, "name": "Washing Machine", "price": 400, "description": "Washing machine", "available": false },
+                  { "id": 6, "name": "Blender", "price": 100, "description": "Blender", "available": true },
+                  { "id": 7, "name": "Microwave", "price": 150, "description": "Microwave oven", "available": true },
+                  { "id": 8, "name": "Fan", "price": 30, "description": "Fan", "available": true },
+                  { "id": 9, "name": "Headphones", "price": 70, "description": "Headphones", "available": true },
+                  { "id": 10, "name": "Toaster", "price": 40, "description": "Toaster", "available": true }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Floor 2",
+            "rooms": [
+              {
+                "id": 1,
+                "name": "Room 101",
+                "products": [
+                  { "id": 1, "name": "Laptop", "price": 999, "description": "High-end laptop", "available": true },
+                  { "id": 2, "name": "Smartphone", "price": 699, "description": "Latest smartphone", "available": false },
+                  { "id": 3, "name": "TV", "price": 599, "description": "4K Ultra HD TV", "available": true },
+                  { "id": 4, "name": "Headphones", "price": 120, "description": "Noise-cancelling headphones", "available": true },
+                  { "id": 5, "name": "Refrigerator", "price": 899, "description": "Double-door fridge", "available": true },
+                  { "id": 6, "name": "Blender", "price": 150, "description": "High-speed blender", "available": false },
+                  { "id": 7, "name": "Washing Machine", "price": 350, "description": "Top load washer", "available": true },
+                  { "id": 8, "name": "Microwave", "price": 200, "description": "Microwave oven", "available": true },
+                  { "id": 9, "name": "Toaster", "price": 30, "description": "2-slice toaster", "available": true },
+                  { "id": 10, "name": "Air Conditioner", "price": 1200, "description": "Split AC", "available": true }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "Room 102",
+                "products": [
+                  { "id": 11, "name": "Dishwasher", "price": 450, "description": "Dishwasher", "available": true },
+                  { "id": 12, "name": "Oven", "price": 500, "description": "Convection oven", "available": true },
+                  { "id": 13, "name": "Fridge", "price": 1200, "description": "French door refrigerator", "available": false },
+                  { "id": 14, "name": "Cooktop", "price": 350, "description": "Induction cooktop", "available": true },
+                  { "id": 15, "name": "Kettle", "price": 50, "description": "Electric kettle", "available": true },
+                  { "id": 16, "name": "Coffee Maker", "price": 100, "description": "Espresso machine", "available": true },
+                  { "id": 17, "name": "Vacuum Cleaner", "price": 120, "description": "Cordless vacuum", "available": false },
+                  { "id": 18, "name": "Iron", "price": 25, "description": "Steam iron", "available": true },
+                  { "id": 19, "name": "Fan", "price": 40, "description": "Ceiling fan", "available": true },
+                  { "id": 20, "name": "Heater", "price": 75, "description": "Electric heater", "available": true }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "Room 103",
+                "products": [
+                  { "id": 21, "name": "Blender", "price": 150, "description": "High-speed blender", "available": false },
+                  { "id": 22, "name": "Juicer", "price": 70, "description": "Electric juicer", "available": true },
+                  { "id": 23, "name": "Grill", "price": 100, "description": "Portable grill", "available": true },
+                  { "id": 24, "name": "Blender", "price": 120, "description": "Mixer grinder", "available": true },
+                  { "id": 25, "name": "Induction Heater", "price": 90, "description": "Portable induction heater", "available": true },
+                  { "id": 26, "name": "Washing Machine", "price": 400, "description": "Front load washer", "available": true },
+                  { "id": 27, "name": "Shaver", "price": 30, "description": "Electric shaver", "available": true },
+                  { "id": 28, "name": "Refrigerator", "price": 800, "description": "Compact fridge", "available": true },
+                  { "id": 29, "name": "Heater", "price": 80, "description": "Electric fan heater", "available": true },
+                  { "id": 30, "name": "AC Unit", "price": 1200, "description": "Air conditioning unit", "available": false }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "Room 104",
+                "products": [
+                  { "id": 31, "name": "Dishwasher", "price": 500, "description": "Dishwasher", "available": true },
+                  { "id": 32, "name": "Microwave", "price": 120, "description": "Microwave oven", "available": true },
+                  { "id": 33, "name": "Washing Machine", "price": 450, "description": "Washer", "available": true },
+                  { "id": 34, "name": "Toaster", "price": 30, "description": "Toaster", "available": true },
+                  { "id": 35, "name": "Air Purifier", "price": 150, "description": "HEPA air purifier", "available": true },
+                  { "id": 36, "name": "Fan", "price": 45, "description": "Tower fan", "available": true },
+                  { "id": 37, "name": "Iron", "price": 25, "description": "Iron", "available": true },
+                  { "id": 38, "name": "Microwave", "price": 150, "description": "Microwave oven", "available": true },
+                  { "id": 39, "name": "Toaster", "price": 50, "description": "Toaster", "available": true },
+                  { "id": 40, "name": "Oven", "price": 250, "description": "Oven", "available": false }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Building C",
+        "floors": [
+          {
+            "id": 1,
+            "name": "Floor 1",
+            "rooms": [
+              {
+                "id": 1,
+                "name": "Room 101",
+                "products": [
+                  { "id": 1, "name": "Laptop", "price": 899, "description": "Basic laptop", "available": true },
+                  { "id": 2, "name": "Smartphone", "price": 649, "description": "Smartphone", "available": true },
+                  { "id": 3, "name": "TV", "price": 499, "description": "LED TV", "available": true },
+                  { "id": 4, "name": "Refrigerator", "price": 850, "description": "Refrigerator", "available": true },
+                  { "id": 5, "name": "Washing Machine", "price": 400, "description": "Washing machine", "available": false },
+                  { "id": 6, "name": "Blender", "price": 100, "description": "Blender", "available": true },
+                  { "id": 7, "name": "Microwave", "price": 150, "description": "Microwave oven", "available": true },
+                  { "id": 8, "name": "Fan", "price": 30, "description": "Fan", "available": true },
+                  { "id": 9, "name": "Headphones", "price": 70, "description": "Headphones", "available": true },
+                  { "id": 10, "name": "Toaster", "price": 40, "description": "Toaster", "available": true }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Floor 2",
+            "rooms": [
+              {
+                "id": 1,
+                "name": "Room 101",
+                "products": [
+                  { "id": 1, "name": "Laptop", "price": 999, "description": "High-end laptop", "available": true },
+                  { "id": 2, "name": "Smartphone", "price": 699, "description": "Latest smartphone", "available": false },
+                  { "id": 3, "name": "TV", "price": 599, "description": "4K Ultra HD TV", "available": true },
+                  { "id": 4, "name": "Headphones", "price": 120, "description": "Noise-cancelling headphones", "available": true },
+                  { "id": 5, "name": "Refrigerator", "price": 899, "description": "Double-door fridge", "available": true },
+                  { "id": 6, "name": "Blender", "price": 150, "description": "High-speed blender", "available": false },
+                  { "id": 7, "name": "Washing Machine", "price": 350, "description": "Top load washer", "available": true },
+                  { "id": 8, "name": "Microwave", "price": 200, "description": "Microwave oven", "available": true },
+                  { "id": 9, "name": "Toaster", "price": 30, "description": "2-slice toaster", "available": true },
+                  { "id": 10, "name": "Air Conditioner", "price": 1200, "description": "Split AC", "available": true }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "Room 102",
+                "products": [
+                  { "id": 11, "name": "Dishwasher", "price": 450, "description": "Dishwasher", "available": true },
+                  { "id": 12, "name": "Oven", "price": 500, "description": "Convection oven", "available": true },
+                  { "id": 13, "name": "Fridge", "price": 1200, "description": "French door refrigerator", "available": false },
+                  { "id": 14, "name": "Cooktop", "price": 350, "description": "Induction cooktop", "available": true },
+                  { "id": 15, "name": "Kettle", "price": 50, "description": "Electric kettle", "available": true },
+                  { "id": 16, "name": "Coffee Maker", "price": 100, "description": "Espresso machine", "available": true },
+                  { "id": 17, "name": "Vacuum Cleaner", "price": 120, "description": "Cordless vacuum", "available": false },
+                  { "id": 18, "name": "Iron", "price": 25, "description": "Steam iron", "available": true },
+                  { "id": 19, "name": "Fan", "price": 40, "description": "Ceiling fan", "available": true },
+                  { "id": 20, "name": "Heater", "price": 75, "description": "Electric heater", "available": true }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "Room 103",
+                "products": [
+                  { "id": 21, "name": "Blender", "price": 150, "description": "High-speed blender", "available": false },
+                  { "id": 22, "name": "Juicer", "price": 70, "description": "Electric juicer", "available": true },
+                  { "id": 23, "name": "Grill", "price": 100, "description": "Portable grill", "available": true },
+                  { "id": 24, "name": "Blender", "price": 120, "description": "Mixer grinder", "available": true },
+                  { "id": 25, "name": "Induction Heater", "price": 90, "description": "Portable induction heater", "available": true },
+                  { "id": 26, "name": "Washing Machine", "price": 400, "description": "Front load washer", "available": true },
+                  { "id": 27, "name": "Shaver", "price": 30, "description": "Electric shaver", "available": true },
+                  { "id": 28, "name": "Refrigerator", "price": 800, "description": "Compact fridge", "available": true },
+                  { "id": 29, "name": "Heater", "price": 80, "description": "Electric fan heater", "available": true },
+                  { "id": 30, "name": "AC Unit", "price": 1200, "description": "Air conditioning unit", "available": false }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "Room 104",
+                "products": [
+                  { "id": 31, "name": "Dishwasher", "price": 500, "description": "Dishwasher", "available": true },
+                  { "id": 32, "name": "Microwave", "price": 120, "description": "Microwave oven", "available": true },
+                  { "id": 33, "name": "Washing Machine", "price": 450, "description": "Washer", "available": true },
+                  { "id": 34, "name": "Toaster", "price": 30, "description": "Toaster", "available": true },
+                  { "id": 35, "name": "Air Purifier", "price": 150, "description": "HEPA air purifier", "available": true },
+                  { "id": 36, "name": "Fan", "price": 45, "description": "Tower fan", "available": true },
+                  { "id": 37, "name": "Iron", "price": 25, "description": "Iron", "available": true },
+                  { "id": 38, "name": "Microwave", "price": 150, "description": "Microwave oven", "available": true },
+                  { "id": 39, "name": "Toaster", "price": 50, "description": "Toaster", "available": true },
+                  { "id": 40, "name": "Oven", "price": 250, "description": "Oven", "available": false }
                 ]
               }
             ]
@@ -65,4 +414,3 @@
       }
     ]
   }
-  

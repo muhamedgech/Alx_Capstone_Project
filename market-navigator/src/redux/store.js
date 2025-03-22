@@ -1,5 +1,3 @@
-// src/store/store.js
-
 import { configureStore } from '@reduxjs/toolkit';
 import buildingReducer from './buildingSlice';
 
