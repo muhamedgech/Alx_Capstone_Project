@@ -2,7 +2,7 @@ import React from "react";
 
 const Marketview = ({ selectedRoom }) => {
   return (
-    <div className="flex-1 p-8 bg-gray-100 min-h-screen">
+    <div className="flex-1 p-8 bg-gray-50 p-6 min-h-screen ">
       <h1 className="text-4xl font-bold mb-8 text-gray-800 text-center">
         🛒 Marketplace Navigator
       </h1>

@@ -4,14 +4,16 @@ import './index.css';
 import App from './App';
 import { Provider } from 'react-redux';
 import store from './redux/store';
+import { BrowserRouter } from "react-router-dom"; // Import BrowserRouter
 
-// Get the root element from your HTML
-const rootElement = document.getElementById('root');
+// Create a root for the app using React 18's createRoot
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-// Create a root and render the app
-const root = ReactDOM.createRoot(rootElement);
+// Render the app with the necessary context providers
 root.render(
-  <Provider store={store}>
-    <App />
-  </Provider>
+  <BrowserRouter>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </BrowserRouter>
 );
